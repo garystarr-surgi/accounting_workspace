@@ -1,1 +1,107 @@
-
+{
+ "charts": [],
+ "content": [
+  {
+   "type": "Card Break"
+  },
+  {
+   "type": "Card",
+   "card_name": "Quick Access",
+   "col": 4
+  },
+  {
+   "type": "Shortcut",
+   "shortcut_name": "Chart of Accounts",
+   "col": 3
+  },
+  {
+   "type": "Shortcut",
+   "shortcut_name": "Journal Entry",
+   "col": 3
+  },
+  {
+   "type": "Shortcut",
+   "shortcut_name": "Payment Entry",
+   "col": 3
+  },
+  {
+   "type": "Card Break"
+  },
+  {
+   "type": "Card",
+   "card_name": "Reports",
+   "col": 4
+  },
+  {
+   "type": "Shortcut",
+   "shortcut_name": "General Ledger",
+   "col": 3
+  },
+  {
+   "type": "Shortcut",
+   "shortcut_name": "Trial Balance",
+   "col": 3
+  }
+ ],
+ "creation": "2024-01-01 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "accounting",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Accounting Workspace",
+ "links": [],
+ "modified": "2024-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Accounting",
+ "name": "Accounting Workspace",
+ "number_cards": [],
+ "onboarding": "",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Chart of Accounts",
+   "link_to": "Account",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Journal Entry",
+   "link_to": "Journal Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Payment Entry",
+   "link_to": "Payment Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "Report",
+   "label": "General Ledger",
+   "link_to": "General Ledger",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "Report",
+   "label": "Trial Balance",
+   "link_to": "Trial Balance",
+   "type": "Report"
+  }
+ ],
+ "title": "Accounting Workspace"
+}
